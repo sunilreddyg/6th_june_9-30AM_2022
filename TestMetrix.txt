@@ -1,0 +1,62 @@
+Test Metrix:-->
+
+	=> Everyday while test execution after test engineer prepare
+	   a metrix
+
+	Types of test metrix:-->
+
+		1. Basic metrix
+		2. Calculated metrix
+
+
+	Basic metrix:-->
+		Basic metrix are prepared by testing team
+		and reported to Test lead
+
+		
+
+
+	Calculated metrix:-->
+		After gathering all metrix from testing team
+		test lead prepare high level reporing analysis
+		called metrix
+
+
+	
+	What exacly reporting during metrix:-->
+
+		1. Number of total testcases executed per day
+		2. Number of total testcases designed per day
+		3. Number of total defect found
+		4. Number of High seviority defects found
+		5. Number of Medium seviority defects found
+		6. Number  of critical or fatal defects found
+		7. Number of testcase still pending to executed
+		8. How much time taken for test execution
+
+
+	
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+	

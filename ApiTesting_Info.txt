@@ -1,0 +1,79 @@
+API:-->
+
+	=> API stands for Application Programming Interface
+	=> APIs specify how one software program should 
+		interact with other software programs.
+	=> API is a collection of software functions 
+		that can be executed by another software program.
+
+	known API's are
+		SOAP UI
+		RestFull
+
+API Testing:-->
+
+	APIs Can test directly and also as a 
+	part of integration testing to check whether the 
+	API meets expectations in terms of 
+	functionality, reliability, performance, 
+	and security of an application
+
+	=> API testing conduct only when multiple
+	   API's available at software..
+	
+	=> API not concentrate on look and feel of the software
+
+
+	
+Advantages of API Testing:
+	
+	=> API Testing is language independent.
+	=> We can test the APIs without a user interface, In
+		GUI testing we have to wait until Userinterface developed
+	=> Early testing possible need not wait until software is developed.
+	
+
+
+What to verify in API Testing:-->
+
+	Data accuracy
+    	HTTP status codes
+    	Response time
+    	Error codes in case API return any errors
+    	Authorization checks
+    	Non-functional testing such as performance testing, security testing
+
+
+
+API HTTP Request Commands:-->
+
+	1. GET: GET method is used to retrieve data from an API.
+	2. POST: POST method is used to send new data to an API
+	3. PUT: PUT method is used to update existing data
+	4. PATCH: PATCH method is used to update existing data
+	5. DELETE : DELETE method is used to remove existing data.
+
+==============================================================>>
+Online Editor to check API Request:-->
+
+	https://reqbin.com/
+
+Sample API to Test:-->
+
+	https://reqres.in/
+
+HTTP status codes to verify:-->
+
+	https://www.w3schools.com/tags/ref_httpmessages.asp
+================================================================>>
+
+
+
+
+	
+
+
+
+
+
+	

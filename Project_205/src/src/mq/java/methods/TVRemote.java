@@ -24,10 +24,10 @@ public class TVRemote
 	
 	
 	//Runnable method
-	public static void main(String[] args) 
-	{
-		new TVRemote().turnon();
-		new TVRemote().nextchannel();
-	}
+		public static void main(String[] args) 
+		{
+			new TVRemote().turnon();
+			new TVRemote().nextchannel();
+		}
 
 }

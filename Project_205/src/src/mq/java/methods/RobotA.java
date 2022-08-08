@@ -3,12 +3,12 @@ package mq.java.methods;
 public class RobotA 
 {
 	
-	void active()
+	public void active()
 	{
 		System.out.println("Robot is active");
 	}
 
-	void start_walk()
+	public void start_walk()
 	{
 		System.out.println("walk Started");
 	}

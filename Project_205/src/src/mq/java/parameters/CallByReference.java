@@ -1,7 +1,6 @@
 package mq.java.parameters;
 
 
-
 public class CallByReference 
 {
 
@@ -16,6 +15,8 @@ public class CallByReference
 		
 		CallByReference obj=new CallByReference();
 		obj.actionmethods(new Calculator(100, 200));
+		
+		
 	}
 
 

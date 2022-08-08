@@ -26,5 +26,7 @@ public class Calculator
 	{
 		new Calculator(100, 200).add();
 		new Calculator(10,20).mul();
+		
+		
 	}
 }

@@ -1,5 +1,6 @@
 Note:---> object identification in Webdriver
 
+
 	*   in selenium all components recognize objects using backend
 	     html source...
 	*   To find unique object properties we need to watch page html source
@@ -24,7 +25,7 @@ Default inspect option at browser window:---->
 
 Locators in Webdriver:--->
 		By is a locator class at Webdriver,We have
-		list of indentification methods under By Class.
+		list of identification methods under By Class.
 	
 	id
 	name

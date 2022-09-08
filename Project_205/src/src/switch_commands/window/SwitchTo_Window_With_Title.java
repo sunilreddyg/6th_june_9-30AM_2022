@@ -33,7 +33,7 @@ public class SwitchTo_Window_With_Title {
 			String pageTitle=driver.switchTo().window(EachWindowID).getTitle();
 			if(pageTitle.contains("About"))
 			{
-				break; 
+				break;   //Where loop breaks window controls should exist on same page
 			}
 		}
 

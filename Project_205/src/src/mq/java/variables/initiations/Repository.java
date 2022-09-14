@@ -13,11 +13,23 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Repository 
 {
-	WebDriver driver;
+	WebDriver driver=null;
 	
 	public void LaunchChromeBrowser()
 	{
 		 driver=WebDriverManager.chromedriver().avoidShutdownHook().create();
+	}
+	
+	public void launchbrowser(String browsername)
+	{
+		if(browsername.equals("chrome"))
+		{
+			 driver=WebDriverManager.chromedriver().avoidShutdownHook().create();
+		}
+		else if(browsername.equals("firefox"))
+		{
+			driver=WebDriverManager.firefoxdriver().avoidShutdownHook().create();
+		}
 	}
 	
 	public void LoadWebpage(String url)

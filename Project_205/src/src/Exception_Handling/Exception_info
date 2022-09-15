@@ -1,0 +1,110 @@
+What is Exception Handling?
+
+Exception Handling is a mechanism to handle 
+runtime errors such as ClassNotFoundException, 
+IOException, SQLException, RemoteException, etc.
+
+Types of Exceptions:-->
+
+	Checked Exception
+	Unchecked Exception
+	
+	
+	1) Checked Exception
+		The classes that directly inherit the Throwable 
+		class except RuntimeException and Error are known as checked exceptions.
+
+		Example:-->
+					IOException,SQL Exception ---etc
+
+	2) Unchecked Exception
+			The classes that inherit the RuntimeException are 
+			known as unchecked exceptions.
+			
+			
+		Example:-->
+					Nullpointer exception, ArithmeticException
+					
+	Exception keywords:-->
+	
+		try:-->
+				The "try" keyword is used to specify a block where 
+				we should place an exception code. It means we 
+				can't use try block alone. The try block must be 
+				followed by either catch or finally.	
+				
+				try
+				{
+						//Write Error Code Here
+				}catch(Exception e)
+				{
+						//Handle erro here
+				}
+				
+				
+		 Catch:-->
+		 		=> Catch block followed by try block
+		 		=> we can use multiple catch blocks to handle
+		 			diffenre exception
+		 								
+					
+				try
+				{
+						//Write Error Code Here
+				}catch(NoSuchElementException e)
+				{
+						//Handle erro here
+				}catch(IOException e1)
+				{
+						//Handle erro here
+				}
+				
+	
+	
+			finally:-->
+					The "finally" block is used to execute the 
+					necessary code of the program. It is executed 
+					whether an exception is handled or not.
+					
+				try
+				{
+						//Write Error Code Here
+				}catch(NoSuchElementException e)
+				{
+						//Handle erro here
+				}finally
+				{
+					    //Finally Code execute whether excpetion
+					     available in code or Not available in code	
+		        }
+					
+		
+		Throw:-->
+				The "throw" keyword is used to throw an exception.
+				Don't write any statement after throw condition..
+				
+				throw new Exception("Descripbe Exception here");
+				
+				
+		Throws:-->
+				The "throws" keyword is used to declare exceptions. 
+				It specifies that there may occur an exception in the method
+				
+				public void method1() throws Exception
+				{
+						Thread.sleep(4000);
+				}		
+				
+				
+				public void method1() 
+				{
+						try
+						{
+							Thread.sleep(4000);
+						}catch(Excpetion e)
+						{
+						
+						}
+				}		
+							
+	

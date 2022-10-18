@@ -7,10 +7,12 @@ import org.openqa.selenium.WebElement;
 
 public class HRM_LoginPage
 {
-
+	
+	WebDriver driver;
 	public HRM_LoginPage(WebDriver driver) 
 	{
 		PageFactory.initElements(driver, this);
+		this.driver=driver;
 	}
 
 	@FindBy(xpath = "//input[@name='username']")
@@ -25,6 +27,22 @@ public class HRM_LoginPage
 	@FindBy(xpath = "//p[contains(.,'Forgot your password?')]")
 	public WebElement  forgotYourPassword;
 	
+	
+	public void HrmLogin(String UID,String PWD)
+	{
+		Username.sendKeys(UID);
+		Password.sendKeys(PWD);
+		login_submit.click();
+	}
+	
+	
 
+	public void VerifyTitle()
+	{
+		if(driver.getTitle().contains("OrangeHRM"))
+			System.out.println("Homepage Title is Verified");
+		else
+			System.out.println("Homepage title is not verified");	
+	}
 
 }

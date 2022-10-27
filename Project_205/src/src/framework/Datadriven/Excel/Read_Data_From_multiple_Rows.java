@@ -2,14 +2,14 @@ package framework.Datadriven.Excel;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Read_Data_From_multiple_Rows 
 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException 
+	{
 		
 		//Locating excel binary file
 		FileInputStream fi=new FileInputStream("TestData\\InputData.xlsx");

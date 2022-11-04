@@ -144,3 +144,11 @@ Annotations:---->
 		{
 		
 		}
+===============================================================
+@Rule
+A JUnit rule is defined as a component that
+ is used to obstruct the test method calls and allows 
+ us to perform something before and after the test method is invoked
+ Syntax:-->
+ 
+ 	public @Rule TestName mytest=new TestName();
